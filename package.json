@@ -1,0 +1,16 @@
+{
+  "name": "snapshot-push",
+  "version": "1.0.0",
+  "description": "Get notifications about Snapshot events via PUSH(EPNS) protocol.",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alekcangp",
+  "license": "ISC",
+  "dependencies": {
+    "@pushprotocol/restapi": "^0.3.1",
+    "axios": "^1.2.5",
+    "ethers": "^5.7.2"
+  }
+}
