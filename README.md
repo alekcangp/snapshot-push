@@ -2,10 +2,14 @@ This is simple module to notify users about Snapshot events via PUSH(EPNS) proto
 
 Install & Run:
 
-mkdir <my-push>
+mkdir `my-push`
 
-cd <my-push>
+cd `my-push`
 
-npm i snapshot-push
+npm install
+
+nano app.mjs
+
+Change to your space, PK and channel in app.mjs
 
 node app.mjs
