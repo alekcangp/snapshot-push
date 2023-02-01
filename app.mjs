@@ -8,7 +8,7 @@ const signer = new ethers.Wallet(Pkey);
 
 var mess,pro0,vot0,fol0;
 const space = "bgldao.eth"; // your space
-const urlql = "https://hub.snapshot.org/graphql?";
+const urlql = "https://hub.snapshot.org/graphql?"; //or https://demo.snapshot.org/graphql
 const urlp = `https://snapshot.org/#/${space}/proposal/`;
 
 main()
@@ -116,7 +116,7 @@ const apiResponse = await PushAPI.payloads.sendNotification({
       cta: el.u,
       img: ''
     },
-    channel: 'eip155:1:0x9bBb9c87E1B203c8B62Bd0c91FfDAD32bc3b16bD', // your channel address
+    channel: 'eip155:1:0x9bBb9c87E1B203c8B62Bd0c91FfDAD32bc3b16bD', // your channel address (use correct chain id)
     env: 'prod' // staging, prod, dev
   });
 }
